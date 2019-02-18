@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) setIdade:(int)_idade;
 - (int) getIdade;
 
+- (float) calcularImcComPeso:(float) peso
+                    eAltura:(float) altura;
+
+- (void) printNomeSelf;
 
 @end
 

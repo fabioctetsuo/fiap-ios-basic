@@ -25,5 +25,14 @@
     return idade;
 }
 
+- (float) calcularImcComPeso:(float) peso
+                     eAltura:(float) altura {
+    return peso / (altura * altura);
+}
+
+- (void) printNomeSelf {
+    return NSLog(@"Nome do caboclo: %@", [self getNome]);
+}
+
 
 @end
