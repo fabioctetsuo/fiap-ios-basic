@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC133BC8221B6F8B0033D171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC133BC7221B6F8B0033D171 /* main.m */; };
 		AC133BD0221B700C0033D171 /* Atleta.m in Sources */ = {isa = PBXBuildFile; fileRef = AC133BCF221B700C0033D171 /* Atleta.m */; };
+		ACDA26F92224ADC400F698A4 /* MassagemAtleta.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDA26F82224ADC400F698A4 /* MassagemAtleta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AC133BC7221B6F8B0033D171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC133BCE221B700C0033D171 /* Atleta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Atleta.h; sourceTree = "<group>"; };
 		AC133BCF221B700C0033D171 /* Atleta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atleta.m; sourceTree = "<group>"; };
+		ACDA26F72224ADC400F698A4 /* MassagemAtleta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MassagemAtleta.h; sourceTree = "<group>"; };
+		ACDA26F82224ADC400F698A4 /* MassagemAtleta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MassagemAtleta.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				AC133BC7221B6F8B0033D171 /* main.m */,
+				ACDA26F72224ADC400F698A4 /* MassagemAtleta.h */,
+				ACDA26F82224ADC400F698A4 /* MassagemAtleta.m */,
 				AC133BCE221B700C0033D171 /* Atleta.h */,
 				AC133BCF221B700C0033D171 /* Atleta.m */,
 			);
@@ -125,6 +130,7 @@
 			files = (
 				AC133BD0221B700C0033D171 /* Atleta.m in Sources */,
 				AC133BC8221B6F8B0033D171 /* main.m in Sources */,
+				ACDA26F92224ADC400F698A4 /* MassagemAtleta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

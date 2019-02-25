@@ -26,6 +26,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) printNomeSelf;
 
+- (NSString *) calculaRendimentoComMetros:(float) metros
+                                   eTempo:(float) tempo;
+// Criando construtor em Objective C
+- (Atleta *)initWithNome:(NSString *)_nome
+              eIdade:(int) _idade;
 @end
 
 NS_ASSUME_NONNULL_END

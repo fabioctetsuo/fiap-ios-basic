@@ -34,5 +34,20 @@
     return NSLog(@"Nome do caboclo: %@", [self getNome]);
 }
 
+- (NSString *) calculaRendimentoComMetros:(float) metros
+                                   eTempo:(float) tempo {
+    float resultado = metros / tempo;
+    NSString *texto = [NSString stringWithFormat:@"O rendimento do atleta e de: %0.2f", resultado];
+    return texto;
+}
+
+- (Atleta *)initWithNome:(NSString *)_nome
+                  eIdade:(int) _idade {
+    self = [super init];
+    nome = _nome;
+    idade = _idade;
+    return self;
+}
+
 
 @end
